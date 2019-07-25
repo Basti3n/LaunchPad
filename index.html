@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Trop bien</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style/style.css">
+        <script>
+            delete module.exports
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="./mainRenderer.js"></script>
+    </head>
+    <body>
+        <div class="container h-90">
+            <a href="pages/random.html"><h1>Titre</h1></a>
+            <div class="row">
+                <div class="menuLeft col-md-3 h-100 w-100">
+                    <p>Menu </p>
+                    <button onclick="resetOthers()">
+                        Autre
+                    </button>
+                    <button onclick="resetClassic()">
+                        Classique
+                    </button>
+                    <button onclick="resetInsect()">
+                        Insecte
+                    </button>
+                    <button onclick="resetOrgue()">
+                        Orgue
+                    </button>
+                </div>
+                <div class="col-md-8" id="table-pad">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

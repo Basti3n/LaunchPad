@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.2.1",
+    "electron": "^5.0.7",
+    "howler": "^2.1.2",
+    "mousetrap": "^1.6.3"
+  },
+  "dependencies": {
+    "electron-packager": "^14.0.2"
+  }
+}
